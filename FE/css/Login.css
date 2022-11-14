@@ -1,0 +1,32 @@
+html,body
+{
+    background-image: url('/FE/images/class_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+.loginform{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #fff;
+    height: 100%;
+    width: 500px;
+    overflow-y: auto;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 500px;
+        height: auto;
+        position: fixed;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
